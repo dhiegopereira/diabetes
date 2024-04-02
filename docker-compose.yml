@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo
+    restart: always
+    volumes:
+      - mongodb_data:/data/db
+    ports:
+      - 27017:27017
+
+  # backend: 
+  #   container_name: backend
+  #   image: node
+  #   restart: always
+  #   working_dir: /app
+  #   volumes: 
+  #     - ./backend:/app
+  #   environment:    
+  #     - MONGODB_URL=mongodb://root:root@mongodb:27017/database
+  #   expose: 
+  #     - 3000
+  #   ports: 
+  #     - 3000:3000
+  #   command: sh -c 'yarn install && yarn start:dev'
+  #   depends_on:
+  #     - mongodb
+  
+  # frontend:
+  #   container_name: frontend
+  #   image: node
+  #   restart: always
+  #   working_dir: /app
+  #   volumes:
+  #     - ./frontend:/app
+  #   expose:
+  #     - 3001
+  #   ports:
+  #     - 3001:3001
+  #   command: sh -c 'yarn && yarn dev -p 3001'
+  #   depends_on:
+  #     - backend
+
+volumes:
+  mongodb_data:
+    driver: local

@@ -1,0 +1,4 @@
+2024/03/31-21:15:00.514 d70 Creating DB D:\dhieg\Documents\Jobs\Javascript\verify-cnn\backend\tokens\food\Default\shared_proto_db\metadata since it was missing.
+2024/03/31-21:15:00.771 d70 Reusing MANIFEST D:\dhieg\Documents\Jobs\Javascript\verify-cnn\backend\tokens\food\Default\shared_proto_db\metadata/MANIFEST-000001
+2024/03/31-21:15:00.771 d70 Recovering log #3
+2024/03/31-21:15:00.783 d70 Reusing old log D:\dhieg\Documents\Jobs\Javascript\verify-cnn\backend\tokens\food\Default\shared_proto_db\metadata/000003.log 

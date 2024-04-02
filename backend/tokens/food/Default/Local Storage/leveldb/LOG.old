@@ -1,0 +1,4 @@
+2024/03/31-21:15:00.457 1274 Creating DB D:\dhieg\Documents\Jobs\Javascript\verify-cnn\backend\tokens\food\Default\Local Storage\leveldb since it was missing.
+2024/03/31-21:15:00.747 1274 Reusing MANIFEST D:\dhieg\Documents\Jobs\Javascript\verify-cnn\backend\tokens\food\Default\Local Storage\leveldb/MANIFEST-000001
+2024/03/31-21:15:00.777 1274 Recovering log #6
+2024/03/31-21:15:00.866 1274 Reusing old log D:\dhieg\Documents\Jobs\Javascript\verify-cnn\backend\tokens\food\Default\Local Storage\leveldb/000006.log 
